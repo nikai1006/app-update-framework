@@ -45,17 +45,15 @@
         <maven.compiler.target>1.7</maven.compiler.target>
     </properties>
 
-    <distributionManagement>
+   <distributionManagement>
         <repository>
-            <id>release</id>
-            <name>nexus release</name>
-            <layout>default</layout>
+            <id>nikai-nexus</id>
+            <name>Releases</name>
             <url>http://nikai.net.cn/content/repositories/releases/</url>
         </repository>
         <snapshotRepository>
-            <id>snapshots</id>
-            <name>nexus snapshots</name>
-            <layout>default</layout>
+            <id>nikai-snapshots</id>
+            <name>Snapshots</name>
             <url>http://nikai.net.cn/content/repositories/snapshots/</url>
         </snapshotRepository>
     </distributionManagement>
