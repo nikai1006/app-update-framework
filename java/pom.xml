@@ -47,14 +47,14 @@
 
     <distributionManagement>
         <repository>
-            <id>xplan-release</id>
-            <name>xplan release</name>
+            <id>release</id>
+            <name>nexus release</name>
             <layout>default</layout>
             <url>http://nikai.net.cn/content/repositories/releases/</url>
         </repository>
         <snapshotRepository>
-            <id>xplan-snapshots</id>
-            <name>xplan snapshots</name>
+            <id>snapshots</id>
+            <name>nexus snapshots</name>
             <layout>default</layout>
             <url>http://nikai.net.cn/content/repositories/snapshots/</url>
         </snapshotRepository>
